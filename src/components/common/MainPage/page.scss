@@ -1,0 +1,15 @@
+.components.MainPage {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  > .Top {
+    position: relative;
+    z-index: 2;
+  }
+  > .Content {
+    position: relative;
+    z-index: 1;
+  }
+  > .Bottom {
+  }
+}
